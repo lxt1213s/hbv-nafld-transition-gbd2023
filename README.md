@@ -6,6 +6,11 @@ Analysis code for the manuscript under revision.
 
 This repository contains the Python scripts that produce every quantitative result in the manuscript. Raw GBD exports and derived result tables are **not** redistributed (the GBD exports are subject to the IHME Free-of-Charge Non-Commercial User Agreement, and whether the derived tables may be released under CC BY is pending a full read of that agreement). The download parameters needed to reproduce the GBD exports are given below, so a reader can download the inputs and rerun every script.
 
+**Archived version.** v1.0.0 — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24115630.svg)](https://doi.org/10.5281/zenodo.24115630)
+Concept DOI for all versions: [10.5281/zenodo.24115629](https://doi.org/10.5281/zenodo.24115629)
+
+**Citation.** Li X, Zhu C, Yin D, Zhu Y. Analysis code for "Decomposing the shift from hepatitis B to non-alcoholic fatty liver disease burden: a Global Burden of Disease 2023 analysis, 1990–2023, with scenarios to 2035" (v1.0.0). Zenodo; 2026. doi:10.5281/zenodo.24115630
+
 ---
 
 ## 1. Data sources
