@@ -1,0 +1,27 @@
+# Raw GBD exports (IHME Free-of-Charge Non-Commercial User Agreement — not redistributed)
+IHME-GBD_*.csv
+IHME-GBD_*.zip
+
+# Raw UN WPP 2024 files
+WPP2024_*.gz
+WPP2024_Population1JanuaryByAge5GroupSex_Medium.csv
+
+# Local raw data directory
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Manuscript and submission files (not part of the code/data record)
+*.docx
+*.pdf
+*.doc
+
+# Editor/IDE artifacts
+.idea/
+.vscode/
+*.log
+.Rhistory
+.RData
