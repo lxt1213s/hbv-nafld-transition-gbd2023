@@ -4,12 +4,12 @@ Analysis code for the manuscript under revision.
 
 > Working title: *Decomposing the shift from hepatitis B to non-alcoholic fatty liver disease burden: a Global Burden of Disease 2023 analysis, 1990–2023, with scenarios to 2035*.
 
-This repository contains the Python scripts that produce every quantitative result in the manuscript. Raw GBD exports and derived result tables are **not** redistributed (the GBD exports are subject to the IHME Free-of-Charge Non-Commercial User Agreement, and whether the derived tables may be released under CC BY is pending a full read of that agreement). The download parameters needed to reproduce the GBD exports are given below, so a reader can download the inputs and rerun every script.
+This repository contains the Python scripts that produce every quantitative result in the manuscript, together with the reported estimates themselves as CSV files in `results/`. Raw GBD exports are **not** redistributed: they are subject to the IHME Free-of-Charge Non-Commercial User Agreement. The download parameters needed to recreate the GBD exports are given below, so a reader can download the inputs and rerun every script.
 
-**Archived releases.** Latest archived version: v1.0.3 — [10.5281/zenodo.24367394](https://doi.org/10.5281/zenodo.24367394); first archived version: v1.0.0 — [10.5281/zenodo.24115630](https://doi.org/10.5281/zenodo.24115630)
+**Archived releases.** v1.0.4 (adds `results/` and `CITATION.cff`) — [10.5281/zenodo.24372323](https://doi.org/10.5281/zenodo.24372323); v1.0.3 — [10.5281/zenodo.24367394](https://doi.org/10.5281/zenodo.24367394); v1.0.0 — [10.5281/zenodo.24115630](https://doi.org/10.5281/zenodo.24115630)
 Concept DOI for all versions: [10.5281/zenodo.24115629](https://doi.org/10.5281/zenodo.24115629)
 
-**Citation.** Li X, Zhu C, Yin D, Zhu Y. Analysis code for "Decomposing the shift from hepatitis B to non-alcoholic fatty liver disease burden: a Global Burden of Disease 2023 analysis, 1990–2023, with scenarios to 2035" (v1.0.3). Zenodo; 2026. doi:10.5281/zenodo.24367394. All versions: doi:10.5281/zenodo.24115629
+**Citation.** Li X, Zhu C, Yin D, Zhu Y. Analysis code for "Decomposing the shift from hepatitis B to non-alcoholic fatty liver disease burden: a Global Burden of Disease 2023 analysis, 1990–2023, with scenarios to 2035" (v1.0.4). Zenodo; 2026. doi:10.5281/zenodo.24372323. All versions: doi:10.5281/zenodo.24115629
 
 ---
 
