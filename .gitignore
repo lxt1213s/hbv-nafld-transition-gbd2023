@@ -25,3 +25,7 @@ __pycache__/
 *.log
 .Rhistory
 .RData
+
+# Run-time artifacts (README section 4)
+derived/
+output/

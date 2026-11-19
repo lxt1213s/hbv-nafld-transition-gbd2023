@@ -64,6 +64,7 @@ Python 3.10+ with `pandas` and `numpy` (versions pinned in `requirements.txt`); 
 | `ab4.py` | 2×2 scenario contrast (HBV rate trend on/off × NAFLD rate trend on/off), four fit windows |
 | `count23b.py` | Three-factor decomposition of absolute DALY counts (population growth, age-structure change, rate change) |
 | `profile.py` | Crude-rate decomposition (rate/age-structure terms per 100,000) and age-profile peaks |
+| `w910.py` | Age-band reconciliation of the WPP and GBD-implied populations (Table S5): total-population differences by year and per-band differences in 2023 |
 | `wpp_build.py`, `wpp_final.py` | Re-binning of the UN WPP 2024 population into the 19 GBD age bands (Global) |
 | `check_death.py`, `echeck.py` | Data-integrity checks (duplicates, missing, lower/upper bounds, age-band coverage) |
 
@@ -77,7 +78,7 @@ Python 3.10+ with `pandas` and `numpy` (versions pinned in `requirements.txt`); 
 4. Decomposition and intervals: `code/dual_round.py` → `code/w23_mc10k.py`.
 5. ρ calibration: `code/w1_rho.py`, `code/n1_final.py`.
 6. Scenarios: `code/ad2b.py` → `code/af5.py` → `code/ag3.py`.
-7. Sensitivity analyses: `code/u4.py` (three-cause), `code/ab4.py` (2×2), `code/count23b.py` (count decomposition), `code/profile.py` (crude-rate split and peaks).
+7. Sensitivity analyses: `code/u4.py` (three-cause), `code/ab4.py` (2×2), `code/count23b.py` (count decomposition), `code/profile.py` (crude-rate split and peaks), `code/w910.py` (population reconciliation, Table S5).
 
 Interval results use `seed = 20261110`, 10,000 draws (`w23_mc10k.py`). The `derived/` and `output/` directories are run-time artifacts and are not part of the repository.
 
