@@ -57,6 +57,7 @@ Python 3.10+ with `pandas` and `numpy` (versions pinned in `requirements.txt`); 
 | `dual_round.py` | Four-component Shapley decomposition of the LDTI change, GBD 2021 and GBD 2023 rounds → `derived/dual_round_results.csv` |
 | `w23_mc10k.py` | **Final** approximate 95% UI of the four components and ΔLDTI (10,000 draws, seed 20261110, ρ = 0.30, shared and independent year draws) |
 | `w1_rho.py`, `n1_final.py` | Calibration of the equicorrelation ρ = 0.30 against the official GBD `All ages` intervals (`n1_final.py` is the final calibration version) |
+| `seed_stability.py` | Seed stability of the calibrated interval width (Table S6): twenty seeds, 2000 draws each, eight checkpoints → `output/seed_stability_out.txt` |
 | `ad2b.py` | Scenarios A/B/C to 2035, anchored at 2023 observed age-specific rates; scenario C splits YLL/YLD per age band (YLL moves with mortality, YLD held) |
 | `af5.py` | Sensitivity on scenario C through the HBV mortality-rate exponent `s` (s = 1 is the main value) |
 | `ag3.py` | Scenario C sensitivity expressed as the **HBV** YLD multiple k (k = 0, 1, 2, 3, 4); maps s to an equivalent k |
@@ -76,7 +77,7 @@ Python 3.10+ with `pandas` and `numpy` (versions pinned in `requirements.txt`); 
 2. `code/wpp_build.py` then `code/wpp_final.py` (generates `data/WPP2024_pop_GBDagebands_1990_2035.csv`).
 3. Data-integrity checks: `code/check_death.py`, `code/echeck.py`.
 4. Decomposition and intervals: `code/dual_round.py` → `code/w23_mc10k.py`.
-5. ρ calibration: `code/w1_rho.py`, `code/n1_final.py`.
+5. ρ calibration: `code/w1_rho.py`, `code/n1_final.py`; seed stability of the calibration: `code/seed_stability.py` (Table S6).
 6. Scenarios: `code/ad2b.py` → `code/af5.py` → `code/ag3.py`.
 7. Sensitivity analyses: `code/u4.py` (three-cause), `code/ab4.py` (2×2), `code/count23b.py` (count decomposition), `code/profile.py` (crude-rate split and peaks), `code/w910.py` (population reconciliation, Table S5).
 
