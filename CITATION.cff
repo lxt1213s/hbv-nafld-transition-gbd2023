@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software
+title: "Analysis code for: Decomposing the shift from hepatitis B to non-alcoholic fatty liver disease burden, GBD 2023, 1990-2023, with scenarios to 2035"
+abstract: >-
+  Python code that reproduces every quantitative result in the manuscript: a
+  four-component decomposition of the change in a two-cause burden share
+  (hepatitis B versus NAFLD), approximate uncertainty intervals derived from GBD
+  count intervals, and anchored scenarios to 2035. A script-to-result
+  traceability table is included, and all reported estimates are provided as CSV
+  files in results/. Raw GBD exports are not redistributed; download parameters
+  and the SHA-256 hashes of the inputs are given in the README.
+authors:
+  - family-names: Li
+    given-names: Xiaotong
+    affiliation: "Beijing University of Chinese Medicine, Beijing, China"
+  - family-names: Zhu
+    given-names: Cuiyan
+    affiliation: "Beijing University of Chinese Medicine, Beijing, China"
+  - family-names: Yin
+    given-names: Dehui
+    affiliation: "Hainan Medical University, Haikou, China"
+  - family-names: Zhu
+    given-names: Ye
+    affiliation: "Hainan Medical University, Haikou, China"
+version: 1.0.4
+date-released: "2026-11-19"
+license: MIT
+doi: 10.5281/zenodo.24115629
+repository-code: "https://github.com/lxt1213s/hbv-nafld-transition-gbd2023"
+keywords:
+  - Global Burden of Disease
+  - hepatitis B
+  - NAFLD
+  - decomposition
+  - Shapley value
+  - burden of disease
